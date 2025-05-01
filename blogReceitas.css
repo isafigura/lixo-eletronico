@@ -1,0 +1,80 @@
+main{
+    justify-content: center;
+    margin-left: 300px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.imagem {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+header{
+    align-items:normal;
+}
+
+.descricao{
+    background-color: #979d55;
+    width: 1400px;
+    padding: 20px;
+}
+
+nav > button{
+    background-color: white;
+    border: none;
+    font-size: 20px; 
+    margin-right: 80px;
+    padding-bottom: 10px;
+}
+
+button:hover{
+    border-bottom: 2px solid #b88917;
+}
+
+
+nav {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+section {
+    display: flex;
+    text-align: justify;
+    width: 1400px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.receita{ 
+    background-color: #dfe1b0;
+    border: solid #979d55 2px;
+    height: 630px;
+    
+}
+
+.receita:hover{
+    transform: scale(1.05);
+}
+
+.imagemReceita{
+    height: 250px;
+    width: 400px;
+}
+
+
+p {
+    width: 400px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+h2 {
+    padding: 10px;
+    text-align: left;
+}

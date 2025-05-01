@@ -1,0 +1,53 @@
+header{
+    background-color: rgb(61, 61, 61);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+main{
+    background-color: rgb(222, 222, 222);
+}
+
+section{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.postUm{
+    background-color: white;
+    padding: 10px;
+    margin-top: 75px;
+    width: 800px;
+    border-radius: 5px;
+}
+
+.postDois{
+    background-color: white;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+aside{
+    background-color: rgb(180, 180, 180);
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 250px;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+footer{
+    background-color: rgb(61, 61, 61);
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

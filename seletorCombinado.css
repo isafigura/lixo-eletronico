@@ -1,0 +1,35 @@
+:root{
+    font-size: 10px;
+}
+
+div > p {
+    color: red;
+}
+
+section {
+    font-size: 2px;
+}
+
+section > p, section > span {
+    color:blue;
+    font-size: 20rem;
+    letter-spacing: 2;
+}
+
+article {
+    background-color: red;
+    width: 50vw;
+    height: 100vh;
+}
+
+header{
+    background-color: blue;
+    width: 50vh;
+    height: 20%;
+}
+
+header:hover{
+    transform: rotate(180deg);
+    transition-duration: 10s;
+    background-color: black;
+}
