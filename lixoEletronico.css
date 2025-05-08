@@ -200,7 +200,7 @@ footer {
 
     .imagemComponente {
         position: static;
-        width: 80%;
+        width: auto;
         margin-top: 1rem;
         height: auto;
     }
